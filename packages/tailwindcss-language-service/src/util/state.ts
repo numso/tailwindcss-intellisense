@@ -50,6 +50,7 @@ export type TailwindCssSettings = {
   validate: boolean
   showPixelEquivalents: boolean
   rootFontSize: number
+  colorFormat: 'rgb' | 'hex'
   colorDecorators: boolean
   lint: {
     cssConflict: DiagnosticSeveritySetting

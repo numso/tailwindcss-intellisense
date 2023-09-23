@@ -280,6 +280,7 @@ async function getConfiguration(uri?: string) {
           recommendedVariantOrder: 'warning',
         },
         showPixelEquivalents: true,
+        colorFormat: 'hex',
         includeLanguages: {},
         files: { exclude: ['**/.git/**', '**/node_modules/**', '**/.hg/**', '**/.svn/**'] },
         experimental: {
